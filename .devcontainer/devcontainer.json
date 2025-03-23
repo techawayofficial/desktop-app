@@ -1,6 +1,8 @@
 {
-  "name": "My Project",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "name": "Chat UI",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "features": {},
   "postCreateCommand": "npm install",
   "customizations": {
